@@ -4,19 +4,19 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>288</x>
+      <x>144</x>
       <y>153</y>
       <w>135</w>
       <h>45</h>
     </coordinates>
-    <panel_attributes>Обработать
-вызов на дом</panel_attributes>
+    <panel_attributes>*Обработать*
+*вызов на дом*</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>639</x>
+      <x>495</x>
       <y>0</y>
       <w>108</w>
       <h>54</h>
@@ -28,18 +28,18 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>630</x>
+      <x>486</x>
       <y>81</y>
       <w>207</w>
       <h>63</h>
     </coordinates>
-    <panel_attributes>Создать новую историю болезни</panel_attributes>
+    <panel_attributes>*Создать новую историю болезни*</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>666</x>
+      <x>522</x>
       <y>153</y>
       <w>108</w>
       <h>36</h>
@@ -50,7 +50,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>639</x>
+      <x>495</x>
       <y>216</y>
       <w>99</w>
       <h>45</h>
@@ -62,18 +62,20 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>540</x>
+      <x>396</x>
       <y>306</y>
       <w>189</w>
       <h>72</h>
     </coordinates>
-    <panel_attributes>Открыть историю болезни</panel_attributes>
+    <panel_attributes>*Редактировать*
+*историю*
+*болезни*</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>378</x>
+      <x>234</x>
       <y>36</y>
       <w>297</w>
       <h>135</h>
@@ -85,7 +87,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>414</x>
+      <x>270</x>
       <y>90</y>
       <w>234</w>
       <h>99</h>
@@ -97,7 +99,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>414</x>
+      <x>270</x>
       <y>153</y>
       <w>270</w>
       <h>45</h>
@@ -109,7 +111,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>378</x>
+      <x>234</x>
       <y>189</y>
       <w>180</w>
       <h>162</h>
@@ -121,7 +123,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>990</x>
+      <x>846</x>
       <y>0</y>
       <w>108</w>
       <h>45</h>
@@ -133,7 +135,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1098</x>
+      <x>954</x>
       <y>45</y>
       <w>117</w>
       <h>54</h>
@@ -145,7 +147,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>945</x>
+      <x>801</x>
       <y>225</y>
       <w>108</w>
       <h>54</h>
@@ -157,7 +159,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1260</x>
+      <x>1116</x>
       <y>135</y>
       <w>108</w>
       <h>36</h>
@@ -168,7 +170,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
+      <x>684</x>
       <y>9</y>
       <w>180</w>
       <h>108</h>
@@ -180,7 +182,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
+      <x>684</x>
       <y>54</y>
       <w>288</w>
       <h>63</h>
@@ -192,7 +194,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
+      <x>684</x>
       <y>90</y>
       <w>207</w>
       <h>63</h>
@@ -204,7 +206,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1116</x>
+      <x>972</x>
       <y>126</y>
       <w>162</w>
       <h>45</h>
@@ -216,7 +218,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
+      <x>576</x>
       <y>306</y>
       <w>414</w>
       <h>54</h>
@@ -228,7 +230,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
+      <x>576</x>
       <y>324</y>
       <w>423</w>
       <h>90</h>
@@ -240,7 +242,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
+      <x>576</x>
       <y>261</y>
       <w>252</w>
       <h>90</h>
@@ -252,7 +254,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1116</x>
+      <x>972</x>
       <y>297</y>
       <w>108</w>
       <h>45</h>
@@ -264,7 +266,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1125</x>
+      <x>981</x>
       <y>378</y>
       <w>126</w>
       <h>45</h>
@@ -276,7 +278,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
+      <x>45</x>
       <y>171</y>
       <w>117</w>
       <h>117</h>
@@ -287,20 +289,20 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>225</x>
+      <x>81</x>
       <y>414</y>
       <w>108</w>
       <h>72</h>
     </coordinates>
-    <panel_attributes>Обработать
-пациента
-на приеме</panel_attributes>
+    <panel_attributes>*Обработать*
+*пациента*
+*на приеме*</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>189</x>
+      <x>45</x>
       <y>261</y>
       <w>90</w>
       <h>171</h>
@@ -311,7 +313,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>612</x>
+      <x>468</x>
       <y>414</y>
       <w>162</w>
       <h>36</h>
@@ -322,33 +324,33 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>558</x>
+      <x>414</x>
       <y>504</y>
       <w>126</w>
       <h>54</h>
     </coordinates>
-    <panel_attributes>Создать
-историю
-болезни</panel_attributes>
+    <panel_attributes>*Создать*
+*историю*
+*болезни*</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>288</x>
+      <x>144</x>
       <y>747</y>
       <w>153</w>
       <h>63</h>
     </coordinates>
-    <panel_attributes>Редактировать
-историю
-болезни</panel_attributes>
+    <panel_attributes>*Редактировать*
+*историю*
+*болезни*</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>315</x>
+      <x>171</x>
       <y>414</y>
       <w>315</w>
       <h>36</h>
@@ -360,7 +362,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>324</x>
+      <x>180</x>
       <y>441</y>
       <w>252</w>
       <h>108</h>
@@ -372,7 +374,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>288</x>
+      <x>144</x>
       <y>477</y>
       <w>90</w>
       <h>297</h>
@@ -384,7 +386,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>882</x>
+      <x>738</x>
       <y>495</y>
       <w>162</w>
       <h>45</h>
@@ -395,8 +397,8 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1134</x>
-      <y>801</y>
+      <x>693</x>
+      <y>765</y>
       <w>126</w>
       <h>54</h>
     </coordinates>
@@ -407,7 +409,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>675</x>
+      <x>531</x>
       <y>513</y>
       <w>225</w>
       <h>45</h>
@@ -419,7 +421,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>675</x>
+      <x>531</x>
       <y>441</y>
       <w>234</w>
       <h>99</h>
@@ -431,18 +433,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>666</x>
-      <y>747</y>
-      <w>108</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>Продолжить</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>684</x>
+      <x>540</x>
       <y>819</y>
       <w>108</w>
       <h>36</h>
@@ -451,57 +442,33 @@
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>684</x>
-      <y>891</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Выбрать
-пациента</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>756</x>
+      <x>288</x>
       <y>729</y>
-      <w>369</w>
+      <w>387</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;40.0;410.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>288</x>
+      <y>765</y>
+      <w>423</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;30.0;390.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>765</x>
-      <y>756</y>
-      <w>387</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;410.0;80.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>387</x>
-      <y>792</y>
-      <w>315</w>
-      <h>135</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-&lt;&lt;include&gt;&gt;</panel_attributes>
-    <additional_attributes>18.0;12.0;330.0;125.0</additional_attributes>
+    <additional_attributes>10.0;20.0;450.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>144</x>
+      <x>0</x>
       <y>243</y>
       <w>54</w>
       <h>99</h>
@@ -512,7 +479,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1017</x>
+      <x>873</x>
       <y>108</y>
       <w>108</w>
       <h>54</h>
@@ -524,8 +491,8 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1107</x>
-      <y>720</y>
+      <x>657</x>
+      <y>711</y>
       <w>162</w>
       <h>45</h>
     </coordinates>
@@ -535,7 +502,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>891</x>
+      <x>747</x>
       <y>423</y>
       <w>126</w>
       <h>54</h>
@@ -547,7 +514,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
+      <x>252</x>
       <y>180</y>
       <w>261</w>
       <h>81</h>
@@ -559,7 +526,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>891</x>
+      <x>747</x>
       <y>567</y>
       <w>171</w>
       <h>54</h>
@@ -570,7 +537,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>666</x>
+      <x>522</x>
       <y>540</y>
       <w>243</w>
       <h>72</h>
@@ -582,7 +549,7 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1035</x>
+      <x>891</x>
       <y>171</y>
       <w>171</w>
       <h>54</h>
@@ -593,7 +560,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>819</x>
+      <x>675</x>
       <y>117</y>
       <w>234</w>
       <h>90</h>
@@ -605,19 +572,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>432</x>
-      <y>747</y>
-      <w>252</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;30.0;260.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>432</x>
+      <x>288</x>
       <y>783</y>
       <w>270</w>
       <h>72</h>
