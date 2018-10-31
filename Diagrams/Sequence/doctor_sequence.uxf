@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>8</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>256</x>
+      <x>288</x>
       <y>0</y>
-      <w>80</w>
-      <h>24</h>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>_System_</panel_attributes>
     <additional_attributes/>
@@ -15,21 +15,21 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>288</x>
-      <y>16</y>
-      <w>24</w>
-      <h>960</h>
+      <x>324</x>
+      <y>18</y>
+      <w>27</w>
+      <h>684</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1180.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;740.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>288</x>
-      <y>32</y>
-      <w>16</w>
-      <h>48</h>
+      <x>324</x>
+      <y>36</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -37,22 +37,22 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>296</x>
-      <y>40</y>
-      <w>272</w>
-      <h>32</h>
+      <x>333</x>
+      <y>45</y>
+      <w>198</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;
 d = GetDoctor(AuthParams)</panel_attributes>
-    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>520</x>
+      <x>477</x>
       <y>0</y>
-      <w>80</w>
-      <h>24</h>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>_Doctors_</panel_attributes>
     <additional_attributes/>
@@ -60,21 +60,21 @@ d = GetDoctor(AuthParams)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>16</y>
-      <w>24</w>
-      <h>992</h>
+      <x>513</x>
+      <y>18</y>
+      <w>27</w>
+      <h>684</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1220.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;740.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>552</x>
-      <y>32</y>
-      <w>16</w>
-      <h>48</h>
+      <x>513</x>
+      <y>36</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -82,10 +82,10 @@ d = GetDoctor(AuthParams)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>288</x>
-      <y>104</y>
-      <w>16</w>
-      <h>48</h>
+      <x>324</x>
+      <y>117</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -93,10 +93,10 @@ d = GetDoctor(AuthParams)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>656</x>
+      <x>891</x>
       <y>0</y>
-      <w>80</w>
-      <h>24</h>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>_Appointments_</panel_attributes>
     <additional_attributes/>
@@ -104,44 +104,33 @@ d = GetDoctor(AuthParams)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>688</x>
-      <y>32</y>
-      <w>24</w>
-      <h>960</h>
+      <x>927</x>
+      <y>18</y>
+      <w>27</w>
+      <h>675</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1180.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;730.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>296</x>
-      <y>112</y>
-      <w>272</w>
-      <h>32</h>
+      <x>333</x>
+      <y>126</y>
+      <w>387</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;
 [d != null] appointments = d.GetAppointments()</panel_attributes>
-    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;410.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>552</x>
-      <y>104</y>
-      <w>16</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>288</x>
-      <y>160</y>
-      <w>16</w>
-      <h>48</h>
+      <x>702</x>
+      <y>117</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -149,22 +138,22 @@ d = GetDoctor(AuthParams)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>296</x>
-      <y>168</y>
-      <w>408</w>
-      <h>32</h>
+      <x>639</x>
+      <y>189</y>
+      <w>378</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;
 [appointments != null] app = appointments.GetAppointment(time)</panel_attributes>
-    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
+    <additional_attributes>90.0;20.0;320.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>688</x>
-      <y>160</y>
-      <w>16</w>
-      <h>48</h>
+      <x>1080</x>
+      <y>261</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -172,21 +161,21 @@ d = GetDoctor(AuthParams)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>760</x>
+      <x>1008</x>
       <y>0</y>
-      <w>144</w>
-      <h>24</h>
+      <w>162</w>
+      <h>27</h>
     </coordinates>
-    <panel_attributes>_ConcreteAppointment_</panel_attributes>
+    <panel_attributes>_app:Appointment_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>288</x>
-      <y>224</y>
-      <w>16</w>
-      <h>48</h>
+      <x>927</x>
+      <y>180</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -194,33 +183,33 @@ d = GetDoctor(AuthParams)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>824</x>
-      <y>16</y>
-      <w>24</w>
-      <h>976</h>
+      <x>1080</x>
+      <y>18</y>
+      <w>27</w>
+      <h>675</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1200.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;730.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>296</x>
-      <y>232</y>
-      <w>544</w>
-      <h>32</h>
+      <x>1089</x>
+      <y>261</y>
+      <w>198</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;
 medCard = app.GetMedCard()</panel_attributes>
-    <additional_attributes>10.0;20.0;660.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>824</x>
-      <y>232</y>
-      <w>16</w>
-      <h>48</h>
+      <x>1269</x>
+      <y>261</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -229,9 +218,9 @@ medCard = app.GetMedCard()</panel_attributes>
     <id>UMLActor</id>
     <coordinates>
       <x>0</x>
-      <y>24</y>
-      <w>48</w>
-      <h>88</h>
+      <y>27</y>
+      <w>54</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>Doctor</panel_attributes>
     <additional_attributes/>
@@ -239,10 +228,10 @@ medCard = app.GetMedCard()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>40</x>
-      <y>40</y>
-      <w>264</w>
-      <h>32</h>
+      <x>45</x>
+      <y>45</y>
+      <w>297</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Start appointment at hospital</panel_attributes>
     <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
@@ -250,10 +239,10 @@ medCard = app.GetMedCard()</panel_attributes>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>0</x>
-      <y>760</y>
-      <w>48</w>
-      <h>88</h>
+      <x>36</x>
+      <y>576</y>
+      <w>54</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>Doctor</panel_attributes>
     <additional_attributes/>
@@ -261,21 +250,21 @@ medCard = app.GetMedCard()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>56</x>
-      <y>560</y>
-      <w>248</w>
-      <h>32</h>
+      <x>63</x>
+      <y>351</y>
+      <w>657</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Create history</panel_attributes>
-    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;710.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>288</x>
-      <y>560</y>
-      <w>16</w>
-      <h>48</h>
+      <x>702</x>
+      <y>342</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -283,44 +272,44 @@ medCard = app.GetMedCard()</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>960</x>
+      <x>1233</x>
       <y>0</y>
-      <w>80</w>
-      <h>24</h>
+      <w>117</w>
+      <h>27</h>
     </coordinates>
-    <panel_attributes>_MedCard_</panel_attributes>
+    <panel_attributes>_medCard:MedCard_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>992</x>
-      <y>16</y>
-      <w>24</w>
-      <h>1016</h>
+      <x>1269</x>
+      <y>18</y>
+      <w>27</w>
+      <h>702</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1250.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;760.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>296</x>
-      <y>560</y>
-      <w>712</w>
-      <h>32</h>
+      <x>711</x>
+      <y>351</y>
+      <w>576</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;
 history = medCard.CreateHistory()</panel_attributes>
-    <additional_attributes>10.0;20.0;870.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;620.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>992</x>
-      <y>568</y>
-      <w>16</w>
-      <h>80</h>
+      <x>1269</x>
+      <y>360</y>
+      <w>18</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -328,10 +317,10 @@ history = medCard.CreateHistory()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>576</y>
-      <w>192</w>
-      <h>80</h>
+      <x>1278</x>
+      <y>369</y>
+      <w>216</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 history = new History()
@@ -341,10 +330,10 @@ Add(history)</panel_attributes>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>16</x>
-      <y>552</y>
-      <w>48</w>
-      <h>96</h>
+      <x>18</x>
+      <y>342</y>
+      <w>54</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>Doctor
 </panel_attributes>
@@ -353,10 +342,10 @@ Add(history)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>288</x>
-      <y>784</y>
-      <w>16</w>
-      <h>48</h>
+      <x>1269</x>
+      <y>603</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -364,60 +353,60 @@ Add(history)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>40</x>
-      <y>776</y>
-      <w>264</w>
-      <h>48</h>
+      <x>81</x>
+      <y>594</y>
+      <w>1206</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=-
 Direct to specialist/
 Prescribe treatment/
 Prescribe analyzises</panel_attributes>
-    <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;1320.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1192</x>
+      <x>1476</x>
       <y>0</y>
-      <w>80</w>
-      <h>24</h>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
-    <panel_attributes>_History_</panel_attributes>
+    <panel_attributes>_history:History_</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1224</x>
-      <y>16</y>
-      <w>24</w>
-      <h>1064</h>
+      <x>1512</x>
+      <y>18</y>
+      <w>27</w>
+      <h>801</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1310.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;870.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>296</x>
-      <y>784</y>
-      <w>944</w>
-      <h>48</h>
+      <x>1278</x>
+      <y>612</y>
+      <w>252</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;
 history.DirectToSpec()/
 history.PrescribeTreatment()/
 history.PrescribeAnalyzises()</panel_attributes>
-    <additional_attributes>10.0;20.0;1160.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1224</x>
-      <y>792</y>
-      <w>16</w>
-      <h>128</h>
+      <x>1512</x>
+      <y>621</y>
+      <w>18</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -425,203 +414,22 @@ history.PrescribeAnalyzises()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1232</x>
-      <y>816</y>
-      <w>184</w>
-      <h>104</h>
+      <x>1521</x>
+      <y>648</y>
+      <w>144</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 CreateNote()</panel_attributes>
-    <additional_attributes>10.0;110.0;130.0;110.0;130.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;110.0;60.0;110.0;60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>8</x>
-      <y>296</y>
-      <w>48</w>
-      <h>88</h>
-    </coordinates>
-    <panel_attributes>Doctor</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>48</x>
-      <y>312</y>
-      <w>256</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>Start appointment at home</panel_attributes>
-    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>288</x>
-      <y>296</y>
-      <w>16</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>552</x>
-      <y>296</y>
-      <w>16</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>296</x>
-      <y>304</y>
-      <w>272</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;
-d = GetDoctor(AuthParams)</panel_attributes>
-    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>288</x>
-      <y>360</y>
-      <w>16</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>552</x>
-      <y>352</y>
-      <w>16</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>296</x>
-      <y>368</y>
-      <w>272</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;
-appointments = d.GetAppointments()
-[d != null] </panel_attributes>
-    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>688</x>
-      <y>400</y>
-      <w>16</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>288</x>
-      <y>416</y>
-      <w>16</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>296</x>
-      <y>408</y>
-      <w>408</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;
-[appointments != null] app = appointments.GetAppointment(time)</panel_attributes>
-    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLActor</id>
-    <coordinates>
-      <x>16</x>
-      <y>472</y>
-      <w>48</w>
-      <h>88</h>
-    </coordinates>
-    <panel_attributes>Doctor</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>288</x>
-      <y>480</y>
-      <w>16</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>56</x>
-      <y>488</y>
-      <w>248</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>Complete/Cancel appointment</panel_attributes>
-    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>296</x>
-      <y>480</y>
-      <w>408</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;
-d.Complete/CanceledAppointmet(app)</panel_attributes>
-    <additional_attributes>10.0;20.0;490.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>688</x>
-      <y>464</y>
-      <w>16</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLActor</id>
-    <coordinates>
-      <x>16</x>
-      <y>648</y>
-      <w>48</w>
-      <h>96</h>
+      <x>18</x>
+      <y>450</y>
+      <w>54</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>Doctor
 </panel_attributes>
@@ -630,32 +438,21 @@ d.Complete/CanceledAppointmet(app)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>56</x>
-      <y>664</y>
-      <w>248</w>
-      <h>32</h>
+      <x>63</x>
+      <y>468</y>
+      <w>657</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Edit history</panel_attributes>
-    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;710.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>288</x>
-      <y>656</y>
-      <w>16</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>992</x>
-      <y>656</y>
-      <w>16</w>
-      <h>48</h>
+      <x>1269</x>
+      <y>459</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -663,13 +460,351 @@ d.Complete/CanceledAppointmet(app)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>296</x>
-      <y>656</y>
-      <w>712</w>
-      <h>32</h>
+      <x>711</x>
+      <y>459</y>
+      <w>576</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;
 history = medCard.GetHistory(date)</panel_attributes>
-    <additional_attributes>10.0;20.0;870.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;620.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>666</x>
+      <y>0</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_d:Doctor_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>702</x>
+      <y>18</y>
+      <w>27</w>
+      <h>675</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;730.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>702</x>
+      <y>180</y>
+      <w>18</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>702</x>
+      <y>450</y>
+      <w>18</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>36</x>
+      <y>783</y>
+      <w>1638</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;1800.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>9</x>
+      <y>810</y>
+      <w>54</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>Doctor
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>54</x>
+      <y>837</y>
+      <w>225</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-
+Start appointment at home</panel_attributes>
+    <additional_attributes>230.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>216</x>
+      <y>801</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_System_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>252</x>
+      <y>819</y>
+      <w>27</w>
+      <h>378</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;400.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>387</x>
+      <y>801</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_Doctors_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>414</x>
+      <y>819</y>
+      <w>27</w>
+      <h>378</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;400.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>261</x>
+      <y>846</y>
+      <w>171</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+d = GetDocttor(AuthParams)</panel_attributes>
+    <additional_attributes>170.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>252</x>
+      <y>837</y>
+      <w>18</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>414</x>
+      <y>837</y>
+      <w>18</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>540</x>
+      <y>801</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_d:Doctor_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>576</x>
+      <y>819</y>
+      <w>27</w>
+      <h>369</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>576</x>
+      <y>900</y>
+      <w>18</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>252</x>
+      <y>909</y>
+      <w>18</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>261</x>
+      <y>909</y>
+      <w>333</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+[d!= null] homeapps = d.GetHomeAppontments()
+</panel_attributes>
+    <additional_attributes>350.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>891</x>
+      <y>801</y>
+      <w>117</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_HomeAppoinments_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>936</x>
+      <y>819</y>
+      <w>27</w>
+      <h>351</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;370.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>576</x>
+      <y>972</y>
+      <w>18</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>18</x>
+      <y>216</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+syncMsg</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>585</x>
+      <y>981</y>
+      <w>369</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+[homeapps!= null]app = homeapps.GetHomeApoinment(time)</panel_attributes>
+    <additional_attributes>390.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>936</x>
+      <y>972</y>
+      <w>18</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1035</x>
+      <y>801</y>
+      <w>135</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>_app:HomeAppoinment_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1089</x>
+      <y>819</y>
+      <w>27</w>
+      <h>369</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>576</x>
+      <y>1062</y>
+      <w>18</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1089</x>
+      <y>1053</y>
+      <w>18</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>585</x>
+      <y>1071</y>
+      <w>522</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+medcard = app.GetMedCard()</panel_attributes>
+    <additional_attributes>560.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>
