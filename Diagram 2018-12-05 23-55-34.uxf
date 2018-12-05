@@ -1,0 +1,94 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>1180</x><y>670</y><w>210</w><h>60</h></coordinates><panel_attributes>Collection
+--
+GetIterator();</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2380</x><y>500</y><w>320</w><h>100</h></coordinates><panel_attributes>Doctor
+--
+string firstName;
+string lastName;
+HospitalApointmentsCollection: Appointment[];
+HomeApointmentsCollection: Appointment[];</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1440</x><y>180</y><w>210</w><h>90</h></coordinates><panel_attributes>MedCard
+--
+string firstName;
+string lastName;
+HystoryCollection: Hystory[];</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2810</x><y>240</y><w>210</w><h>70</h></coordinates><panel_attributes>Laborator
+--
+string firstName;
+string lastName;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2810</x><y>370</y><w>210</w><h>70</h></coordinates><panel_attributes>Registrator
+--
+string firstName;
+string lastName;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>740</y><w>210</w><h>70</h></coordinates><panel_attributes>_iRegistratorRepository_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>870</y><w>210</w><h>70</h></coordinates><panel_attributes>LocalRepository
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>870</y><w>210</w><h>70</h></coordinates><panel_attributes>RemoteRepository
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>800</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>70;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>800</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;70;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>1030</y><w>210</w><h>70</h></coordinates><panel_attributes>_iLaboratorRepository_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>1160</y><w>210</w><h>70</h></coordinates><panel_attributes>LocalRepository
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>620</x><y>1160</y><w>210</w><h>70</h></coordinates><panel_attributes>RemoteRepository
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>1090</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>70;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>1090</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;70;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>450</y><w>210</w><h>70</h></coordinates><panel_attributes>_iDoctorRepository_
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>580</y><w>210</w><h>70</h></coordinates><panel_attributes>LocalRepository
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>580</y><w>210</w><h>70</h></coordinates><panel_attributes>RemoteRepository
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>510</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>70;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>510</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;70;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>20</y><w>210</w><h>100</h></coordinates><panel_attributes>_iPatientRepository_
+--
+Patient GetPatient()
+Collection GetPatients();
+Update();</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>220</y><w>210</w><h>70</h></coordinates><panel_attributes>LocalRepository
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>220</y><w>210</w><h>70</h></coordinates><panel_attributes>RemoteRepository
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>110</y><w>100</w><h>130</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>80;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>1020</x><y>720</y><w>270</w><h>120</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>250;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1120</x><y>1010</y><w>210</w><h>100</h></coordinates><panel_attributes>__iCreateRepositoryFactory__
+--
+createRegistratorRepository();
+createLaboratorRepository();
+createDoctorRepository();
+createPatientRepository();</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>980</x><y>1200</y><w>210</w><h>80</h></coordinates><panel_attributes>LocalFactoryRepository
+--
+id: Long="36548"
+[waiting for message]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1260</x><y>1160</y><w>210</w><h>80</h></coordinates><panel_attributes>RemoteFactoryRepository
+--
+id: Long="36548"
+[waiting for message]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1120</x><y>1100</y><w>50</w><h>120</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>30;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>1280</x><y>1100</y><w>90</w><h>80</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;70;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1860</x><y>190</y><w>280</w><h>100</h></coordinates><panel_attributes>System
+--
+DoctorsCollection: Doctor[]
+ShedulesCollection: Shedule[]
+RegistreBookCollection: MedCard[]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1530</x><y>80</y><w>480</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>460;110;460;10;10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2500</x><y>240</y><w>210</w><h>70</h></coordinates><panel_attributes>Schedule
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2370</x><y>380</y><w>210</w><h>70</h></coordinates><panel_attributes>Appointment
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1440</x><y>320</y><w>210</w><h>70</h></coordinates><panel_attributes>Hystory
+--
+RecordCollection: Record[]
+AnalysisCollection: Analys[]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1570</x><y>500</y><w>210</w><h>70</h></coordinates><panel_attributes>Analys
+--
+id: Long="36548"
+[waiting for message]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1310</x><y>500</y><w>210</w><h>70</h></coordinates><panel_attributes>Record
+--
+id: Long="36548"
+[waiting for message]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1530</x><y>260</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>1390</x><y>380</y><w>110</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>90;10;90;60;10;60;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>1580</x><y>380</y><w>110</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60;90;60;90;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1030</x><y>220</y><w>210</w><h>60</h></coordinates><panel_attributes>CompositionRoot
+--
+System();</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>820</y><w>210</w><h>60</h></coordinates><panel_attributes>RegistreBookCollection
+--
+MedCard[]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1460</x><y>820</y><w>210</w><h>60</h></coordinates><panel_attributes>DoctorsCollection
+--
+doctor[]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1180</x><y>820</y><w>210</w><h>60</h></coordinates><panel_attributes>ShedulesCollection
+--
+ Shedule[]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>110</y><w>80</w><h>130</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;60;110</additional_attributes></element><element><id>Relation</id><coordinates><x>1290</x><y>720</y><w>290</w><h>120</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;270;100</additional_attributes></element><element><id>Relation</id><coordinates><x>1280</x><y>720</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2320</x><y>180</y><w>890</w><h>630</h></coordinates><panel_attributes>Model</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>0</y><w>2230</w><h>1420</h></coordinates><panel_attributes>Bussines Logic</panel_attributes><additional_attributes></additional_attributes></element></diagram>
